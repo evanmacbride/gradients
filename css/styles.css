@@ -1,3 +1,54 @@
-.modal {
-  display: none;
+html {
+  height: 100%;
+  line-height: 1.1;
+}
+
+body {
+  display: flex;
+  flex-flow: column wrap;
+  height: 100%;
+  justify-content: center;
+  z-index: 0;
+}
+
+#veil {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+
+#modal {
+  background-color: #dfe6e984;
+  color: #2d3436;
+  font-family: 'Work Sans',sans-serif;
+  margin: 0 auto;
+  padding: 1rem;
+  position: fixed;
+  text-transform: uppercase;
+  z-index: 2;
+}
+
+h1 {
+  font-weight: 200;
+  font-size: 10vw;
+  letter-spacing: 0.52em;
+  margin: 5vw 0;
+}
+
+p {
+  float: right;
+  font-size: 1rem;
+  letter-spacing: 0.04em;
+  margin-top: 0;
+}
+
+#closeModal {
+  background: transparent;
+  border: 1px solid #2d3436;
+  cursor: pointer;
+  font-size: 1rem;
+  position: absolute;
+  top: 0.62rem;
+  right: 0.62rem;
 }
