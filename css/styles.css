@@ -4,6 +4,7 @@ html {
 }
 
 body {
+  background-color: black; /* Use black background for dark mode */
   display: flex;
   flex-flow: column wrap;
   height: 100%;
