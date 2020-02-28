@@ -6,7 +6,17 @@ const light = ["129,236,236","116,185,255","162,155,254",
 
 const dark = ["109,33,79","24,44,97","130,88,159","88,177,159","59,59,152"];
 
-const colors = dark;
+const VIVID_SKY_BLUE =      "24,220,255";
+const MED_SLATE_BLUE =      "125,95,255";
+const ROSE_PINK =           "243,104,224";
+const DEEP_LEMON =          "249,202,36";
+const HELIOTROPE_PURPLE =   "224,86,253";
+const BRIGHT_YELLOW =       "255,159,26";
+
+const saturated = [VIVID_SKY_BLUE,MED_SLATE_BLUE,ROSE_PINK,DEEP_LEMON,
+  HELIOTROPE_PURPLE,BRIGHT_YELLOW];
+
+const colors = saturated;
 
 window.onload = ()=> {
   const modal = document.getElementById("modal");
